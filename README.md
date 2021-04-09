@@ -1,5 +1,7 @@
 # Luca Brasi Bot
 
+[![<Vitards>](https://circleci.com/gh/Vitards/Luca-Brasi-Bot.svg?style=svg)](https://app.circleci.com/pipelines/github/Vitards/Luca-Brasi-Bot)
+
 This is the admin bot code for the [/r/Vitards](https://reddit.com/r/vitards) subreddit.
 
 ## Installation
