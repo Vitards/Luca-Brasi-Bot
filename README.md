@@ -24,8 +24,8 @@ Secrets are stored in a `.env` file which is not tracked in git. In order for th
 ```
 CLIENT_ID=[APP_CLIENT_ID]
 CLIENT_SECRET=[APP_CLIENT_SECRET]
-USERNAME=[REDDIT_USERNAME]
-PASSWORD=[REDDIT_USER_PASSWORD]
+REDDIT_USERNAME=[REDDIT_USERNAME]
+REDDIT_PASSWORD=[REDDIT_USER_PASSWORD]
 ```
 
 You can copy the `.env.example` file to `.env` and change the values to the appropriate ones:
