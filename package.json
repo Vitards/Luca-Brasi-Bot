@@ -1,0 +1,41 @@
+{
+  "name": "luca-brasi-bot",
+  "version": "1.0.0",
+  "description": "Bot for the r/Vitards subreddit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier:write": "prettier --write .",
+    "prettier:check": "prettier --check .",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitards/Luca-Brasi-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vitards/Luca-Brasi-Bot/issues"
+  },
+  "homepage": "https://github.com/Vitards/Luca-Brasi-Bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "snoostorm": "^1.5.2",
+    "snoowrap": "^1.22.0",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@types/node-fetch": "^2.5.10",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  }
+}
