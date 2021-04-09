@@ -44,3 +44,7 @@ This project uses `prettier` for code formatting. Please be sure to install the 
 ## CircleCI
 
 This project uses CircleCI as its CI platform. The config file is located in `.circleci/config.yml`. It will check that all files are formatted with prettier and will run the tests.
+
+## Tests
+
+This project uses [jest](https://jestjs.io/) for tests.
